@@ -1,0 +1,33 @@
+#!/usr/bin/env perl
+
+# PODNAME: mlocate
+# ABSTRACT: Find module locate by his name
+
+=head1 SYNOPSIS
+
+  mlocate Redis
+  => ...lib/site_perl/5.14.2/Redis.pm
+
+  Edit it :
+  vim $(mlocate Redis)
+
+  locate many file :
+  mlocate Redis DBI
+  => ...lib/site_perl/5.14.2/Redis.pm
+  => ...lib/site_perl/5.14.2/DBI.pm
+
+=cut
+
+use strict;
+use warnings;
+# VERSION
+use Module::Locate 'locate';
+
+for my $module(@ARGV) {
+    my $filename = locate($module);
+    if (defined $filename) {
+        print $filename, "\n";
+    } else {
+        warn "$module no found !\n";
+    }
+};

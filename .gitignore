@@ -1,0 +1,7 @@
+*.swp
+.DS_Store
+*.old
+*.bak
+*.tdy
+.build
+App-Module-Locate-*
