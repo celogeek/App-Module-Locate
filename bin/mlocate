@@ -31,3 +31,14 @@ for my $module(@ARGV) {
         warn "$module no found !\n";
     }
 };
+
+__END__
+
+=head1 BUGS
+
+Any bugs or evolution can be submit here :
+
+L<Github|https://github.com/geistteufel/App-Module-Locate>
+
+=head1
+
