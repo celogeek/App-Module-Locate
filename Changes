@@ -1,14 +1,17 @@
+{{$NEXT}}
+
+0.4       2012-07-08 18:46:43 Europe/Paris
+
+    Use Dist::Zilla Bundle Celogeek
+
 0.3 - 2012-06-08 00:20
-====
 
   * Change author name
 
 0.2 - 2011-11-27 14:10
-====
 
   * Add bug tracker page
 
 0.1 - 2011-11-27 14:00
-====
 
   * First commit
