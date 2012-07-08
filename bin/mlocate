@@ -32,13 +32,3 @@ for my $module(@ARGV) {
     }
 };
 
-__END__
-
-=head1 BUGS
-
-Any bugs or evolution can be submit here :
-
-L<Github|https://github.com/celogeek/App-Module-Locate>
-
-=head1
-
