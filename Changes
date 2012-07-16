@@ -1,8 +1,10 @@
 {{$NEXT}}
 
+    Use Dist::Zilla::PluginBundle::Author::Celogeek v0.7
+
 0.4       2012-07-08 18:46:43 Europe/Paris
 
-    Use Dist::Zilla Bundle Celogeek
+    Use Dist::Zilla::PluginBundle::Author::Celogeek
 
 0.3 - 2012-06-08 00:20
 
