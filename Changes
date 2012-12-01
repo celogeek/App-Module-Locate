@@ -1,5 +1,7 @@
 {{$NEXT}}
 
+    update meta
+
 0.5       2012-07-16 16:49:59 Europe/Paris
 
     Use Dist::Zilla::PluginBundle::Author::Celogeek v0.7
